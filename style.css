@@ -1,0 +1,89 @@
+body{
+margin: 0%;
+
+background-color: rgb(165, 24, 24);
+}
+
+nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   background-color: rgb(201, 10, 10);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: black;
+}
+
+#icon{
+     width: 65px;
+} 
+
+.notícia{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+background-color: rgb(33, 33, 216);
+}
+
+.img_Notícia{
+    width: 600px;
+    height: 300px;
+}
+
+
+#notícias{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+border-radius: 10px;
+}
+
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(33, 33, 216);;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.img_Escalação_Barcelona{
+ display: flex;
+width:100px;
+height:100px;
+border-radius:15px ;
+object-fit: cover;
+}
+
+#Escalação_Barcelona{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+#titulo-escalacao{
+    text-align: center;
+    font-size: 32px;
+    padding: 15px;
+    background-color: rgb(201, 10, 10);
+    color: black;
+    font-weight: bold;
+}
+.titulo-escalacao{
+    text-align: center;
+    font-size: 32px;
+    padding: 15px;
+    background-color: rgb(201, 10, 10);
+    color: black;
+    font-weight: bold;
+}
+.Jogador{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 15px;
+color: black;
+font-size: 16px;
+}
